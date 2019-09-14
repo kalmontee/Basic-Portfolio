@@ -1,13 +1,12 @@
 /********Global*********/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 
-.header-container {
-    width: 960px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /***********Header************/
@@ -15,6 +14,15 @@ body {
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+
+.header-container {
+    width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 div.branding {
@@ -49,11 +57,34 @@ nav ul li a {
     border-right: none;
 }
 
+a:hover {
+    color: #4aaaa5;
+}
+
 /*********Index.HTML********/
-/*
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 .main-content {
     background-color: #ffffff;
-    border: 1px solid #dddddd;
-    padding: 100px;
 }
-*/
+
+p.clear {
+    clear: both;
+}
+
+
+/********************Footer*******************/
+footer {
+    background-color: #666666;
+    position: sticky;
+    
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 13px;
+    align-items: flex-end;
+    color: #fff;
+}
