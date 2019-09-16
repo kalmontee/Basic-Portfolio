@@ -82,10 +82,11 @@ nav ul li a {
     border-right: 1px solid rgb(235, 234, 234);
 }
 
+/*Contact.html link*/
 #contact {
     border-right: none;
 }
-
+/*Hovering all a links*/
 a:hover {
     color: #fff;
     background-color: #4aaaa5;
@@ -107,7 +108,7 @@ div.info {
     line-height: 2em;
 }
 
-/******************Contact********************/
+/******************Contact.html********************/
 form {
     color: #777777;
 }
@@ -116,7 +117,7 @@ input, textarea {
     width: 100%;
     text-decoration: none;
     margin: 10px 0;
-    padding: 5px 0;
+    padding: 6px 0;
     border: 1px solid rgb(230, 230, 230);
 }
 
@@ -149,12 +150,54 @@ button:hover {
     width: 200px;
     padding: 10px;
     height: 200px;
-    opacity: 0.5;
+    border: none;
+    /* opacity: 0.5; */
 }
 
 img:hover {
     opacity: 1.0;
+}
+
+/* .projects {
+    overflow: auto;
+    clear: both;
+} */
+
+.heading-project-title {
+    position: absolute;
     background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 199px;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 1px;
+    font-weight: normal;
+}
+
+.baseball-game {
+    top: 386px;
+    right: 857px;
+}
+
+.office-img {
+    top: 386px;
+    right: 632px;
+}
+
+.dog {
+    top: 608px;
+    right: 857px;
+}
+
+.ninja {
+    top: 832px;
+    right: 857px;
+}
+
+.nightlife {
+    top: 608px;
+    right: 633px;
 }
 
 /********************Footer*******************/
