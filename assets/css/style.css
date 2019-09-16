@@ -26,17 +26,17 @@ section {
 /*main-content for Index, Portfolio, Contact */
 .main-content {
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
     margin: 50px 0;
     padding: 20px;
-    box-shadow: #666666;
 }
 
 /*h1 heading*/
 h1 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid #dddddd;
     padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd; /*Main content border color*/
 }
 
 /***********Header************/
@@ -87,31 +87,33 @@ nav ul li a {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /*********Index.HTML********/
 
-img {
-    width: 200px;
+#profile-pic {
+    width: 150px;
     opacity: 0.7;
     float: left;
     margin-right: 10px;
 }
 
-img:hover {
+#profile-pic:hover {
     opacity: 1.0;
 }
 
 div.info {
     color: #777777;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 /******************Contact********************/
 form {
     color: #777777;
-
 }
 
 input, textarea {
@@ -121,11 +123,6 @@ input, textarea {
     padding: 5px 0;
     border: 1px solid rgb(230, 230, 230);
 }
-
-/* textarea {
-    width: 100%;
-    margin: 5px 0;
-} */
 
 button {
     text-decoration: none;
@@ -138,6 +135,32 @@ button {
     font-size: 15px;
 }
 
+button:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+/********************Portfolio*****************/
+.portfolio-images {
+   display: flex;
+}
+
+.images-container {
+    width: 500px;
+}
+
+.images-container img {
+    width: 200px;
+    padding: 10px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+    background-color: #4aaaa5;
+}
+
 /********************Footer*******************/
 footer {
     text-align: center;
@@ -146,6 +169,6 @@ footer {
     font-size: 13px;
     color: rgb(179, 179, 179);
     padding: 15px;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
