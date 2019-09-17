@@ -158,11 +158,6 @@ img:hover {
     opacity: 1.0;
 }
 
-/* .projects {
-    overflow: auto;
-    clear: both;
-} */
-
 .heading-project-title {
     position: absolute;
     background-color: #4aaaa5;
@@ -177,27 +172,27 @@ img:hover {
 
 .baseball-game {
     top: 386px;
-    right: 857px;
+    right: 940px;;
 }
 
 .office-img {
     top: 386px;
-    right: 632px;
+    right: 716px;
 }
 
 .dog {
     top: 608px;
-    right: 857px;
+    right: 940px;
 }
 
 .ninja {
     top: 832px;
-    right: 857px;
+    right: 940px;
 }
 
 .nightlife {
     top: 608px;
-    right: 633px;
+    right: 716px;
 }
 
 /********************Footer*******************/
